@@ -1080,3 +1080,37 @@ footer {
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
+
+/* Estilos para o texto da lista de presentes */
+.texto-presentes {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--preto);
+}
+
+.texto-presentes p {
+    margin-bottom: 15px;
+}
+
+.destaque-presentes {
+    font-weight: bold;
+    color: var(--fuchsia-dark);
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .texto-presentes {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    
+    .destaque-presentes {
+        font-size: 1.1rem;
+    }
+}
